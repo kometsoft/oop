@@ -104,8 +104,8 @@ class User
     {
         $output = false;
 
-        $encrypt_method = 'AES-256-CBC';                // Default
-        $secret_key = 'ti400PKSTrainingu0!';               // Change the key!
+        $encrypt_method = 'AES-256-CBC'; // Default
+        $secret_key = 'ti400PKSTrainingu0!'; // Change the key!
         $secret_iv = '!IV@_$2';  // Change the init vector!
 
         // hash
